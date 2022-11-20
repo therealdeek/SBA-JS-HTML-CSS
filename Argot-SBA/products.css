@@ -1,0 +1,48 @@
+body{
+    background-color: rgba(21, 36, 36, 0.942);
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0px;
+        padding: 10%;
+        
+    
+}
+
+.column{
+    float: left;
+    width: 33%;
+    padding: 75px;
+    
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.imgContainer img,
+.imageContainer img{
+    width: 100%;
+    height: auto;
+}
+    
+.imgButton{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10%;
+
+}   
+
+.imgButton, select{
+     margin: 30px;
+     height: 100px;
+     
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="argot.css">
+
+<!-- Background image for the page -->
+
+    <style>
+        body {
+            background-image: url(Images/pexels-belle-co-1000444.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+           
+        }
+    </style>
+</head>
+<body>
+    <!-- navigation start -->
+  <nav class="nav">
+    <ul>
+        <li class="nav-links"><a>Shop</a></li>
+        <li class="nav-links"><a>Create Account</a></li>
+        <li class="nav-links"><a>About Us</a></li>
+        <li class="nav-links"><a>Newsletter</a></li>
+    </ul>
+   </nav>
+
+   <!-- Navigation end -->
+   
+    <!-- Main Page Image and Quote start -->
+
+<div class="container">
+   
+   <div class="pageName" style="font-size: 400px ;"> Argot
+        <div class="quote" style="font-size: 39px ;">Life is life. Style is style. Argot is a lifestyle. Live it.</div>
+   </div>   
+</div>
+
+<!-- Main page and image quote end -->
+
+<!-- Javascript Function(s)-->
+
+<script>
+    var newTextNode = document.createTextNode("This site is for people looking for unique clothing items with designs.");
+        console.log(newTextNode);
+</script>
+
+<!-- script to display to removal of the list in the console -->
+
+<script>
+    var li = document.getElementsByTagName("li");
+
+    var myArr = Array.prototype.slice.call(li, 1, 3);
+    for(i in myArr) {
+        console.log(myArr[i]);
+    }
+</script>
+
+   
+</body>
+</html>
